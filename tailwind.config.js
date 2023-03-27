@@ -15,6 +15,7 @@ module.exports = {
       },
       fontFamily: {
         DmSans: ["DM Sans", "sans-serif"],
+        integralCF: ["integralCF", "sans-serif"],
       },
     },
   },
