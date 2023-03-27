@@ -1,0 +1,40 @@
+{
+  "hero" : {
+    "title" : "Discover, and Collect digital art nfts",
+    "content" : "Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.",
+    "btn_name" : "Explore Now",
+    "counter" : [
+      {
+        "id" : 1,
+        "title" : "98K+",
+        "subtitle" : "Artwork"
+      },
+      {
+        "id" : 2,
+        "title" : "12K+",
+        "subtitle" : "Auction"
+      },
+      {
+        "id" : 3,
+        "title" : "15K+",
+        "subtitle" : "Artist"
+      }
+    ],
+    "banner" : [
+      {
+        "id" : 1,
+        "image" : "./images/banner/banner-1.png",
+        "title" : "Abstr Gradient NFT",
+        "author" : "/images/person/person-1.png",
+        "author_name" : "Arkhan17",
+        "badge" :{
+          "title" : "Current Bid",
+          "bid_price" : "0.25 ETH",
+          "ends_time" : "Ends in",
+          "bid_hour" : "12h  43m  42s"
+        }
+      }
+      
+    ]
+  }
+}
