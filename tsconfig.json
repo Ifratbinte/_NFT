@@ -14,8 +14,14 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "paths": {
-      "#/*": ["./src/*"]
+    "baseUrl": ".",
+    "paths": {                     
+      "#/*": ["./src/*"],                      
+      "#pages/*": ["./src/pages/*"],                      
+      "#components/*": ["./src/components/*"],                      
+      "#container/*": ["./src/container/*"],                      
+      "#config/*": ["./src/config/*"],                      
+      "#mocks/*": ["./src/__mocks__/*"],                      
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
