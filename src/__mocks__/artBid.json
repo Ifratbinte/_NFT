@@ -11,7 +11,7 @@
     "bid_item" : [
       {
         "id" : 1,
-        "img" : "/images/art/lg/sm-1.png",
+        "img" : "/images/art/sm/sm-1.png",
         "author": "/images/person/person-1.png",
         "author_name" : "The Futr Abstr",
         "bid_amount" : "0.25 ETH",
@@ -20,8 +20,8 @@
       },
       {
         "id" : 2,
-        "img" : "/images/art/lg/sm-2.png",
-        "author": "/images/person/person-.png",
+        "img" : "/images/art/sm/sm-2.png",
+        "author": "/images/person/person-1.png",
         "author_name" : "The Futr Abstr",
         "bid_amount" : "0.25 ETH",
         "stock": "1 of 8",
@@ -29,7 +29,7 @@
       },
       {
         "id" : 3,
-        "img" : "/images/art/lg/sm-3.png",
+        "img" : "/images/art/sm/sm-3.png",
         "author": "/images/person/person-1.png",
         "author_name" : "The Futr Abstr",
         "bid_amount" : "0.25 ETH",
@@ -41,30 +41,35 @@
       {
         "id": 1,
         "image" : "/images/art-round/badge-1.png",
+        "title": "CryptoFunks",
         "amount" : "19,769.39",
         "in_sell" : "+26.52%"
       },
       {
         "id": 2,
         "image" : "/images/art-round/badge-2.png",
+        "title": "Cryptix",
         "amount" : "2,769.39",
         "de_sell" : "+10.52%"
       },
       {
         "id": 3,
         "image" : "/images/art-round/badge-3.png",
+        "title": "Frensware",
         "amount" : "9,232.39",
         "in_sell" : "+2.52%"
       },
       {
         "id": 4,
         "image" : "/images/art-round/badge-4.png",
+        "title": "PunkArt",
         "amount" : "3,769.39",
         "in_sell" : "+1.52%"
       },
       {
         "id": 5,
         "image" : "/images/art-round/badge-5.png",
+        "title": "Art Crypto",
         "amount" : "10,769.39",
         "de_sell" : "+2.52%"
       }
