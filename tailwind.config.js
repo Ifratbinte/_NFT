@@ -12,10 +12,15 @@ module.exports = {
     extend: {
       colors: {
         primary: "#3D00B7",
+        grayPrimary: "#F7F9FB",
+        paragraph: "#696969"
       },
       fontFamily: {
         DmSans: ["DM Sans", "sans-serif"],
         integralCF: ["integralCF", "sans-serif"],
+      },
+      backgroundImage: {
+        "hero-gfx": "url('/images/gfx/dot.png')",
       },
     },
   },
