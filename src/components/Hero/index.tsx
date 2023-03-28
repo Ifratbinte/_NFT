@@ -1,12 +1,13 @@
 import Button from "#components/Button/btnPrimary";
 import heroData from "#mocks/hero.json";
+import styles from "./hero.module.css";
 
 const Hero = () => {
   const hero = heroData.hero;
   return (
-    <div className="container mx-auto h-screen">
-      <div className="lg:grid lg:grid-cols-2 flex flex-col-reverse items-center gap-10">
-        <div className="">
+    <div className={`${styles.hero} container mx-auto h-screen relative section-b-gap`}>
+      <div className="flex items-center gap-10">
+        <div className="lg:w-1/2">
           <h2 className="text-4xl font-integralCF font-bold mb-7">{hero.title}</h2>
           <p className="text-lg font-">{hero.content}</p>
           <Button btn_name={hero.btn_name} />
@@ -21,28 +22,32 @@ const Hero = () => {
             })}
           </ul>
         </div>
-        {hero.banner.map((banner: any, i: number) => {
+        <div className="lg:w-1/2">
+          {hero.banner.map((banner: any, i: number) => {
             return (
-              <div className="relative">
-                <img src={banner.image} alt="" />
-                <div className="absolute top-0 flex flex-col justify-between">
-                  <div>
-                    <h4 className="text-xl">{banner.title}</h4>
-                    <div className="flex items-center">
-                      <img src={banner.author} alt={banner.author_name} />
-                      <span>{banner.author_name}</span>
+              <div className="flex justify-center" key={i}>
+                <div className="relative">
+                  <img src={banner.image} alt="" />
+                  <div className="absolute top-0 w-full h-full flex flex-col justify-between py-6 px-10">
+                    <div>
+                      <h4 className="text-2xl text-white font-semibold">{banner.title}</h4>
+                      <div className="flex items-center py-3">
+                        <img src={banner.author} alt={banner.author_name} />
+                        <span className="text-lg text-white pl-3">{banner.author_name}</span>
+                      </div>
                     </div>
-                  </div>
-                  <div className="flex justify-between flex-wrap">
-                    <span>{banner?.badge?.title}</span>
-                    <span>{banner?.badge?.bid_price}</span>
-                    <span>{banner?.badge?.ends_time}</span>
-                    <span>{banner?.badge?.bid_hour}</span>
+                    <ul className="flex justify-between flex-wrap py-3 px-4 rounded-xl backdrop-blur-md bg-white/30">
+                      <li className="w-1/2 text-sm text-slate-50">{banner?.badge?.title}</li>
+                      <li className="w-1/2 text-sm text-slate-50">{banner?.badge?.ends_time}</li>
+                      <li className="w-1/2 text-slate-50">{banner?.badge?.bid_price}</li>
+                      <li className="w-1/2 text-slate-50">{banner?.badge?.bid_hour}</li>
+                    </ul>
                   </div>
                 </div>
               </div>
             );
           })}
+        </div>
       </div>
     </div>
   );

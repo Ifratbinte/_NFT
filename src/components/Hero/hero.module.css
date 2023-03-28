@@ -1,0 +1,9 @@
+.hero::after{
+  /* content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: url(/images/gfx/dot.png);
+    background-repeat: no-repeat; */
+}
