@@ -1,0 +1,17 @@
+{
+  "service" : {
+    "title" : "The Amazing nft art of the world here",
+    "item" : [
+      {
+        "icon" : "/images/icon/icon-1.png",
+        "title" : "Fast Transaction",
+        "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet."
+      },
+      {
+        "icon" : "/images/icon/icon-2.png",
+        "title" : "Growth Transaction",
+        "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus"
+      }
+    ]
+  }
+}
