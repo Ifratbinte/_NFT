@@ -1,7 +1,7 @@
 import AuthBid from "#components/common/AuthBid";
 import artBidData from "#mocks/artBid.json";
-import BidImage from "../common/BidImg";
-import TopCollection from "../common/TopCollection";
+import BidImage from "../../common/BidImg";
+import TopCollection from "../../common/TopCollection";
 
 const ArtBid = () => {
   const artBid = artBidData.art_bid;
@@ -9,7 +9,7 @@ const ArtBid = () => {
     <div className="container mx-auto section-gap">
       <div className="flex gap-16">
         <div className="lg:w-1/3">
-          <div className="w-11/12" >
+          <div className="w-11/12">
             <img src={artBid.img} alt="" />
           </div>
           <AuthBid author={artBid.author} author_name={artBid.author_name} stock={artBid.stock} bid_title={artBid.bid_title} bid_amount={artBid.bid_amount} />

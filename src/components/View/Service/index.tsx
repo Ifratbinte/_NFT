@@ -1,5 +1,5 @@
 import serviceData from "#mocks/service.json";
-import TextPlate from "../common/TextPlate";
+import TextPlate from "#components/common/TextPlate";
 
 const Service = () => {
   const service = serviceData.service;
