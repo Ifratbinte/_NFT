@@ -9,7 +9,7 @@ interface Props {
 }
 
 const BidImage: React.FC<Props> = ({image, author, author_name, stock, bid_amount, btn }) => {
-  return <div className="flex items-center gap-7 pb-14 last:pb-0">
+  return <div className="flex items-center gap-7 pb-10 last:pb-0">
     <div>
       <img src={image} alt="" />
     </div>

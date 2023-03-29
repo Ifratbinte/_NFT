@@ -13,7 +13,7 @@ interface Props {
 
 const TopCollection: React.FC<Props> = ({ id, image, title, amount, verify_badge, in_sell, de_sell, isVerify }) => {
   return (
-    <div className="flex items-center gap-6 relative mr-28 py-5 last:pb-5  border-b last:border-b-0">
+    <div className="flex items-center gap-6 relative py-4 last:pb-5  border-b last:border-b-0">
       <div className="text-2xl font-bold">{id}</div>
       <div>
         <img src={image} alt={title} className="relative" />
