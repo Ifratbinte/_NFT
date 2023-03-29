@@ -1,7 +1,7 @@
 export interface NavInterface {
   id: number;
   title: string;
-  component?: JSX.Element;
+  // component?: JSX.Element;
 }
 
 const NavItems: NavInterface[] = [
