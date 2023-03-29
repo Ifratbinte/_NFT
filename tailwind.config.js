@@ -13,7 +13,8 @@ module.exports = {
       colors: {
         primary: "#3D00B7",
         grayPrimary: "#F7F9FB",
-        paragraph: "#696969"
+        paragraph: "#696969",
+        danger: "#FF002E"
       },
       fontFamily: {
         DmSans: ["DM Sans", "sans-serif"],
