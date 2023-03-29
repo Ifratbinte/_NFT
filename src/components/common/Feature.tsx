@@ -12,27 +12,25 @@ const Feature: React.FC<Props> = ({ title, author, author_name, btn, feat_lg, fe
   console.log({ feat_sm });
 
   return (
-    <div className="flex flex-col lg:w-1/3">
-      <div className="flex gap-2 mb-5 lg:w-1/3">
-          <img src={feat_lg} alt="" />
-        <ul>
-          {feat_sm.map((item_sm: any, i: number) => {
-            return (
-              <li className="pb-2">
-                <img src={item_sm.img} alt="" />
-              </li>
-            );
-          })}
-        </ul>
+    <div className="flex flex-col">
+      <div className="flex gap-2 mb-5">
+        <div><img src={feat_lg} alt=""/></div>
+        <div>
+          {feat_sm.map((item_sm: any, i: number) => 
+            <div className="pb-2">
+              <img key={i} src={item_sm.img} alt=""/>
+            </div>
+          )}
+        </div>
       </div>
       <div>
-        <h4 className="text-2xl">{title}</h4>
-        <div className="flex justify-between items-center mt-6 px-3 mr-9">
+        <h4 className="text-xl font-bold font-DmSans">{title}</h4>
+        <div className="flex justify-between items-center mt-3 mr-16">
           <div className="flex items-center">
             <img src={author} alt={author_name} className="mr-2" />
-            <h5 className="text-md font-DmSans font-bold">{author_name}</h5>
+            <h5 className="text-md font-DmSans font-bold pl-2">by {author_name}</h5>
           </div>
-          <button className="rounded-full border-primary border-1">{btn}</button>
+          <button className="rounded-full border-blue hover:border-primary border border-1 text-blue hover:text-white hover:bg-primary font-DmSans font-semibold text-sm px-3 py-2">{btn}</button>
         </div>
       </div>
     </div>

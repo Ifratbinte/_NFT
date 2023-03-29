@@ -14,7 +14,8 @@ module.exports = {
         primary: "#3D00B7",
         grayPrimary: "#F7F9FB",
         paragraph: "#696969",
-        danger: "#FF002E"
+        danger: "#FF002E",
+        blue: "#2639ED"
       },
       fontFamily: {
         DmSans: ["DM Sans", "sans-serif"],
