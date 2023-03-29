@@ -9,8 +9,8 @@ const Menu = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
-    <div className="container mx-auto py-7 px-2 lg:px-0">
-      <div className="flex items-center justify-between">
+    <div className="container mx-auto py-7 px-2 lg:px-0 ">
+      <div className=" flex items-center justify-between">
         <div className="flex items-baseline justify-between">
           <div className="logo">
             <img src="/images/logo/logo.png" alt="" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaEthereum } from "react-icons/fa";
 
 interface Props {
   id: number;
@@ -17,11 +18,11 @@ const TopCollection: React.FC<Props> = ({ id, image, title, amount, verify_badge
       <div className="text-2xl font-bold">{id}</div>
         <div>
           <img src={image} alt={title} className="relative" />
-          {/* {isVerify && <img src={verify_badge} alt="" className="absolute" />} */}
+          {isVerify && <img src={verify_badge} alt="" className="absolute top-2 left-20" />}
         </div>
-      <div>
+      <div className="ml-2">
         <h6 className="font-DmSans text-lg font-semibold text-black">{title}</h6>
-        <span className="text-sm text-slate-800 font-semibold">{amount}</span>
+        <span className="flex items-center text-sm text-slate-800 font-semibold mt-2 font-DmSans"><FaEthereum className="mr-1 text-xl"/>{amount}</span>
       </div>
       {/* <div className={`${in_sell ? "text-teal-300" : "text-red-600"}text-xl font-bold font-DmSans`}>{in_sell}</div> */}
       {in_sell && <div className="text-teal-300 text-xl font-bold font-DmSans absolute right-0">{in_sell}</div>}

@@ -30,7 +30,7 @@ const ArtBid = () => {
           })}
         </div>
         <div className="lg:w-1/3">
-          <h4 className="text-2xl font-bold font-integralCF mb-2">{artBid.collection_title}</h4>
+          <h4 className="text-2xl font-integralCF mb-2">{artBid.collection_title}</h4>
           <span className="text-primary font-semibold">{artBid.days}</span>
           <div className="mt-3">
             {artBid.collection.map((collection: any, i: number) => {

@@ -12,7 +12,7 @@ const Discover = () => {
           {
             discover.items.map((items:any, i:number) => {
               return (
-                <Card thumb={items.thumb} title={items.title} amount={items.amount} stock={items.stock} time={items.time} btn={items.btn} />
+                <Card thumb={items.thumb} author={items.avatar} title={items.title} amount={items.amount} stock={items.stock} time={items.time} btn={items.btn} />
               )
             })
           }

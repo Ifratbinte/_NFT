@@ -27,7 +27,7 @@ const ArtBid = () => {
           })}
         </div>
         <div className="lg:w-1/3">
-          <h4 className="text-2xl font-bold font-integralCF">{artBid.collection_title}</h4>
+          <h4 className="text-2xl font-integralCF">{artBid.collection_title}</h4>
           <span className="text-primary">{artBid.days}</span>
           {
             artBid.collection.map((collection:any, i:number)=> {
