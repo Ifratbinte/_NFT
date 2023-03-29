@@ -15,10 +15,10 @@ const TopCollection: React.FC<Props> = ({ id, image, title, amount, verify_badge
   return (
     <div className="flex items-center gap-6 relative py-4 last:pb-5  border-b last:border-b-0">
       <div className="text-2xl font-bold">{id}</div>
-      <div>
-        <img src={image} alt={title} className="relative" />
-        {/* {isVerify && <img src={verify_badge} alt="" className="absolute" />} */}
-      </div>
+        <div>
+          <img src={image} alt={title} className="relative" />
+          {/* {isVerify && <img src={verify_badge} alt="" className="absolute" />} */}
+        </div>
       <div>
         <h6 className="font-DmSans text-lg font-semibold text-black">{title}</h6>
         <span className="text-sm text-slate-800 font-semibold">{amount}</span>

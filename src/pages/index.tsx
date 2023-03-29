@@ -6,6 +6,8 @@ import ArtBid from "#/components/View/ArtBid";
 import Service from "#/components/View/Service";
 import Hero from "#components/View/Hero";
 import Feature from "#/components/View/Feature";
+import SignUp from "#components/View/SignUp"
+import Discover from "#/components/View/Discover";
 export default function Home() {
   return (
     <>
@@ -13,6 +15,8 @@ export default function Home() {
       <Service />
       <ArtBid />
       <Feature/>
+      <SignUp/>
+      <Discover/>
     </>
   );
 }
