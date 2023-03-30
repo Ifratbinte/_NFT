@@ -1,4 +1,4 @@
-import Newsletter from "#/components/common/newsletter";
+import Newsletter from "#/components/common/Newsletter";
 import account, { AccountInterface } from "#/components/instance/account";
 import marketPlace, { MarketInterface } from "#/components/instance/marketplace";
 import List from "#components/common/List";
@@ -11,10 +11,10 @@ const index = () => {
   return (
     <>
       <div className="container mx-auto section-gap-s ">
-        <div className="flex gap-14 py-4">
-          <div className="lg:w-4/12">
-            <img src={footer.logo} alt="" />
-            <div className="my-8 w-5/6">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start gap-14 py-4">
+          <div className="lg:w-4/12 w-full px-3 lg:px-0 text-center lg:text-left">
+            <img src={footer.logo} alt="" className="mx-auto lg:ml-0 lg:mr-0"/>
+            <div className="my-8 lg:w-5/6 md:2/3 ">
               <p className="text-paragraph font-DmSans">{footer.content}</p>
             </div>
             <SocialIcon />
@@ -35,9 +35,9 @@ const index = () => {
               })}
             </ul>
           </div>
-          <div className="lg:w-4/12">
+          <div className="lg:w-4/12 w-2/3 text-center lg:text-left">
             <h5 className="text-xl font-DmSans font-bold mb-8">{footer.newsletter}</h5>
-            <div className="my-8 w-5/6">
+            <div className="my-8 lg:w-5/6">
               <p className="text-gray-800 font-DmSans">{footer.newsletter_content}</p>
             </div>
             <Newsletter btn={footer.subscribe} />

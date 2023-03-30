@@ -6,8 +6,8 @@ const Feature = () => {
   return (
     <div className="section-gap-s relative bg-grayPrimary">
       <div className="container mx-auto">
-        <h3 className="text-2xl font-integralCF mb-14">{feature.title}</h3>
-        <div className="grid grid-cols-3 gap-12">
+        <h3 className="text-2xl font-integralCF mb-14 text-center lg:text-start">{feature.title}</h3>
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12">
           {feature.item.map((feature: any, i: number) => {
             return (
               <FeatureTemp

@@ -12,7 +12,7 @@ const Feature: React.FC<Props> = ({ title, author, author_name, btn, feat_lg, fe
   console.log({ feat_sm });
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center md:items-start">
       <div className="flex gap-2 mb-5">
         <div><img src={feat_lg} alt=""/></div>
         <div>
@@ -23,9 +23,9 @@ const Feature: React.FC<Props> = ({ title, author, author_name, btn, feat_lg, fe
           )}
         </div>
       </div>
-      <div>
+      <div className="w-2/3 sm:w-1/2 md:w-full">
         <h4 className="text-xl font-bold font-DmSans">{title}</h4>
-        <div className="flex justify-between items-center mt-3 mr-16">
+        <div className="flex justify-between items-center mt-3 lg:mr-16">
           <div className="flex items-center">
             <img src={author} alt={author_name} className="mr-2" />
             <h5 className="text-md font-DmSans font-bold pl-2">by {author_name}</h5>

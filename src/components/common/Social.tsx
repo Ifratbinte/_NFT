@@ -5,7 +5,7 @@ const SocialIcon = () => {
 console.log({icon});
 
   return (
-    <ul className="flex">
+    <ul className="flex justify-center lg:justify-left">
       {icon.map((icon: any, i: number) => {
         return (
           <li className="pr-3" key={i}>

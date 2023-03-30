@@ -24,9 +24,8 @@ const TopCollection: React.FC<Props> = ({ id, image, title, amount, verify_badge
         <h6 className="font-DmSans text-lg font-semibold text-black">{title}</h6>
         <span className="flex items-center text-sm text-slate-800 font-semibold mt-2 font-DmSans"><FaEthereum className="mr-1 text-xl"/>{amount}</span>
       </div>
-      {/* <div className={`${in_sell ? "text-teal-300" : "text-red-600"}text-xl font-bold font-DmSans`}>{in_sell}</div> */}
-      {in_sell && <div className="text-teal-300 text-xl font-bold font-DmSans absolute right-0">{in_sell}</div>}
-      {de_sell && <div className="text-danger text-xl font-bold font-DmSans absolute right-0">{de_sell}</div>}
+      {in_sell && <div className="text-teal-300 text-lg md:text-xl font-bold font-DmSans absolute right-0">{in_sell}</div>}
+      {de_sell && <div className="text-danger text-lg md:text-xl font-bold font-DmSans absolute right-0">{de_sell}</div>}
     </div>
   );
 };

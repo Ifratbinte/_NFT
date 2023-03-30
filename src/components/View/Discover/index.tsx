@@ -8,7 +8,7 @@ const Discover = () => {
     <div className='section-gap-s bg-grayPrimary'>
       <div className="container mx-auto">
         <h2 className="text-3xl font-integralCF">{discover.title}</h2>
-        <div className="grid grid-cols-4 gap-10 mt-6">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-10 mt-6">
           {
             discover.items.map((items:any, i:number) => {
               return (

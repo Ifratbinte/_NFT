@@ -25,6 +25,9 @@ a {
 .section-b-gap{
   padding-bottom: 120px;
 }
+.section-b-gap-s{
+  padding-bottom: 75px;
+}
 .section-gap-s{
   padding: 75px 0
 }

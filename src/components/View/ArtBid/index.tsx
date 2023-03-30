@@ -6,15 +6,15 @@ import TopCollection from "../../common/TopCollection";
 const ArtBid = () => {
   const artBid = artBidData.art_bid;
   return (
-    <div className="container mx-auto section-gap">
-      <div className="flex gap-16">
-        <div className="lg:w-1/3">
-          <div className="w-full">
+    <div className="container mx-auto md:section-gap section-gap-s">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12">
+        <div>
+          <div className="sm:w-2/3 md:w-full mx-auto">
             <img src={artBid.img} alt="" />
           </div>
           <AuthBid author={artBid.author} author_name={artBid.author_name} stock={artBid.stock} bid_title={artBid.bid_title} bid_amount={artBid.bid_amount} />
         </div>
-        <div className="lg:w-1/3 border-r">
+        <div className="sm:w-2/3 md:w-full mx-auto">
           {artBid.bid_item.map((item: any, i: number) => {
             return (
               <BidImage
@@ -29,10 +29,10 @@ const ArtBid = () => {
             );
           })}
         </div>
-        <div className="lg:w-1/3">
-          <h4 className="text-2xl font-integralCF mb-2">{artBid.collection_title}</h4>
+        <div className="text-center lg:text-left">
+          <h4 className="text-xl md:text-2xl font-integralCF mb-2">{artBid.collection_title}</h4>
           <span className="text-primary font-semibold">{artBid.days}</span>
-          <div className="mt-3">
+          <div className="mt-3 sm:w-2/3 md:w-full mx-auto">
             {artBid.collection.map((collection: any, i: number) => {
               return (
                 <TopCollection

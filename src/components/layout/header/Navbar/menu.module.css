@@ -14,6 +14,7 @@
   .responsive_menu {
     transform: translate(0);
     opacity: 1;
-    background: #ddd;
+    background: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 }
