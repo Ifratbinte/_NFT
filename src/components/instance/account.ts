@@ -10,7 +10,7 @@ export interface AccountInterface {
     },
     {
       id: 2,
-      title: "Favourite"
+      title: "Favorite"
     },
     {
       id: 3,

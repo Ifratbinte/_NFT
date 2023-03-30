@@ -2,9 +2,27 @@
     "footer" : {
         "logo" : "/images/logo/logo-dark.png",
         "content" : "The world's first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items",
+        "icons" : [
+            {
+                "id" : 1,
+                "icon" : "/images/icon/facebook.png",
+                "path" : "#"
+            },
+            {
+                "id" : 2,
+                "icon" : "/images/icon/twitter.png",
+                "path" : "#"
+            },
+            {
+                "id" : 3,
+                "icon" : "/images/icon/linkedin.png",
+                "path" : "#"
+            }
+        ],
         "market_title" : "Market Place", 
         "acc_title" : "My Account",
         "newsletter" : "Stay In The Loop",
-        "newsletter_content" : "Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs."
+        "newsletter_content" : "Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks for navigating NFTs.",
+        "subscribe" : "Subscribe Now"
     }
 }
