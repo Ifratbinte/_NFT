@@ -6,7 +6,7 @@ import styles from "./hero.module.css";
 const Hero = () => {
   const hero = heroData.hero;
   return (
-    <div className={`${styles.hero} container mx-auto relative section-b-gap-s mt-10 lg:mt-o`}>
+    <div className={`${styles.hero} container mx-auto md:h-80v relative section-b-gap-s mt-10 lg:mt-44`}>
       <div className="flex items-center flex-col lg:flex-row-reverse gap-10">
         <div className="w-4/5 lg:w-1/2">
           {hero.banner.map((banner: any, i: number) => {

@@ -24,6 +24,9 @@ module.exports = {
       backgroundImage: {
         "hero-gfx": "url('/images/gfx/dot.png')",
       },
+      height: {
+        "80v": "80vh",
+      },
     },
   },
   plugins: [
