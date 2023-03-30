@@ -84,7 +84,7 @@
                 "btn" : "Place a bid"
             },
             {
-                "id" : 5,
+                "id" : 4,
                 "thumb" : "/images/discover/thumb-2.png",
                 "author" :[
                     {
@@ -111,7 +111,7 @@
                 "btn" : "Place a bid"
             },
             {
-                "id" : 6,
+                "id" : 5,
                 "thumb" : "/images/discover/thumb-4.png",
                 "author" :[
                     {
@@ -138,7 +138,7 @@
                 "btn" : "Place a bid"
             },
             {
-                "id" : 7,
+                "id" : 6,
                 "thumb" : "/images/discover/thumb-1.png",
                 "author" :[
                     {
@@ -165,7 +165,7 @@
                 "btn" : "Place a bid"
             },
             {
-                "id" : 8,
+                "id" : 7,
                 "thumb" : "/images/discover/thumb-2.png",
                 "author" :[
                     {
@@ -192,7 +192,223 @@
                 "btn" : "Place a bid"
             },
             {
-                "id" : 4,
+                "id" : 8,
+                "thumb" : "/images/discover/thumb-4.png",
+                "author" :[
+                    {
+                        "id": 1,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 2,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 3,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 4,
+                        "avater" : "/images/person/avtar-1.png"
+                    }
+                ],
+                "title" : "KingCrypto",
+                "amount" : "0.25 ETH",
+                "stock" : "1 of 321",
+                "time" : "3h 50m 2s left",
+                "btn" : "Place a bid"
+            },
+            {
+                "id" : 9,
+                "thumb" : "/images/discover/thumb-1.png",
+                "author" :[
+                    {
+                        "id": 1,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 2,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 3,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 4,
+                        "avater" : "/images/person/avtar-1.png"
+                    }
+                ],
+                "title" : "ArtCrypto",
+                "amount" : "0.25 ETH",
+                "stock" : "1 of 321",
+                "time" : "3h 50m 2s left",
+                "btn" : "Place a bid"
+            },
+            {
+                "id" : 10,
+                "thumb" : "/images/discover/thumb-2.png",
+                "author" :[
+                    {
+                        "id": 1,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 2,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 3,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 4,
+                        "avater" : "/images/person/avtar-1.png"
+                    }
+                ],
+                "title" : "This NFT",
+                "amount" : "0.25 ETH",
+                "stock" : "1 of 321",
+                "time" : "3h 50m 2s left",
+                "btn" : "Place a bid"
+            },
+            {
+                "id" : 11,
+                "thumb" : "/images/discover/thumb-3.png",
+                "author" :[
+                    {
+                        "id": 1,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 2,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 3,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 4,
+                        "avater" : "/images/person/avtar-1.png"
+                    }
+                ],
+                "title" : "NameCrypto",
+                "amount" : "0.25 ETH",
+                "stock" : "1 of 321",
+                "time" : "3h 50m 2s left",
+                "btn" : "Place a bid"
+            },
+            {
+                "id" : 12,
+                "thumb" : "/images/discover/thumb-2.png",
+                "author" :[
+                    {
+                        "id": 1,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 2,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 3,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 4,
+                        "avater" : "/images/person/avtar-1.png"
+                    }
+                ],
+                "title" : "KingCrypto",
+                "amount" : "0.25 ETH",
+                "stock" : "1 of 321",
+                "time" : "3h 50m 2s left",
+                "btn" : "Place a bid"
+            },
+            {
+                "id" : 13,
+                "thumb" : "/images/discover/thumb-4.png",
+                "author" :[
+                    {
+                        "id": 1,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 2,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 3,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 4,
+                        "avater" : "/images/person/avtar-1.png"
+                    }
+                ],
+                "title" : "KingCrypto",
+                "amount" : "0.25 ETH",
+                "stock" : "1 of 321",
+                "time" : "3h 50m 2s left",
+                "btn" : "Place a bid"
+            },
+            {
+                "id" : 14,
+                "thumb" : "/images/discover/thumb-1.png",
+                "author" :[
+                    {
+                        "id": 1,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 2,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 3,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 4,
+                        "avater" : "/images/person/avtar-1.png"
+                    }
+                ],
+                "title" : "KingCrypto",
+                "amount" : "0.25 ETH",
+                "stock" : "1 of 321",
+                "time" : "3h 50m 2s left",
+                "btn" : "Place a bid"
+            },
+            {
+                "id" : 15,
+                "thumb" : "/images/discover/thumb-2.png",
+                "author" :[
+                    {
+                        "id": 1,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 2,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 3,
+                        "avater" : "/images/person/avtar-1.png"
+                    },
+                    {
+                        "id": 4,
+                        "avater" : "/images/person/avtar-1.png"
+                    }
+                ],
+                "title" : "KingCrypto",
+                "amount" : "0.25 ETH",
+                "stock" : "1 of 321",
+                "time" : "3h 50m 2s left",
+                "btn" : "Place a bid"
+            },
+            {
+                "id" : 16,
                 "thumb" : "/images/discover/thumb-4.png",
                 "author" :[
                     {
