@@ -3,6 +3,7 @@
     "title" : "Discover, and Collect digital art nfts",
     "content" : "Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.",
     "btn_name" : "Explore Now",
+    "badge" : "/images/art-round/badge-1.png",
     "counter" : [
       {
         "id" : 1,

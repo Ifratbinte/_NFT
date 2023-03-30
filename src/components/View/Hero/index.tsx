@@ -8,7 +8,10 @@ const Hero = () => {
   return (
     <div className={`${styles.hero} container mx-auto md:h-80v relative section-b-gap-s mt-10 lg:mt-44`}>
       <div className="flex items-center flex-col lg:flex-row-reverse gap-10">
-        <div className="w-4/5 lg:w-1/2">
+        <div className="w-4/5 lg:w-1/2 relative">
+          <div className="absolute left-16 z-10 top-36">
+            <img src={hero.badge} alt="" />
+          </div>
           {hero.banner.map((banner: any, i: number) => {
             return (
               <div className="flex justify-center" key={i}>
@@ -37,6 +40,7 @@ const Hero = () => {
             );
           })}
         </div>
+        
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-integralCF mb-5 lg:w-4/5">{hero.title}</h2>
           <p className="text-lg font-DmSans text-paragraph lg:w-2/3 mb-9">{hero.content}</p>
