@@ -22,7 +22,7 @@ const CTA = () => {
                 <img src={cta.thumbnail2} alt="" className="" />
               </div>
               <div>
-                <img src={cta.person2} alt="" className="md:block hidden sm:absolute sm:bottom-24 sm;right-10" />
+                <img src={cta.person2} alt="" className="md:block hidden sm:absolute sm:bottom-24 sm:right-10" />
               </div>
             </div>
           </div>

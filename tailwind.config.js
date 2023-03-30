@@ -25,7 +25,7 @@ module.exports = {
         "hero-gfx": "url('/images/gfx/dot.png')",
       },
       height: {
-        "80v": "80vh",
+        "70v": "70vh",
       },
     },
   },
