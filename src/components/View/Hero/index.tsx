@@ -7,8 +7,8 @@ const Hero = () => {
   const hero = heroData.hero;
   return (
     <div className={`${styles.hero} container mx-auto h-screen relative section-b-gap`}>
-      <div className="flex items-center gap-10">
-        <div className="lg:w-1/2">
+      <div className="flex items-center flex-col gap-10">
+        <div className="w-full lg:w-1/2">
           <h2 className="text-4xl font-integralCF mb-5 w-4/5">{hero.title}</h2>
           <p className="text-lg font-DmSans text-paragraph w-2/3 mb-9">{hero.content}</p>
           <Button btn_name={hero.btn_name} />
@@ -23,7 +23,7 @@ const Hero = () => {
             })}
           </ul>
         </div>
-        <div className="lg:w-1/2">
+        <div className="w-full lg:w-1/2">
           {hero.banner.map((banner: any, i: number) => {
             return (
               <div className="flex justify-center" key={i}>

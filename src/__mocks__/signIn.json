@@ -16,6 +16,12 @@
                 "thumbnail": "/images/art/sign/sm.png",
                 "person": "/images/person/person-md-2.png" 
             }
-        ]
+        ],
+        "thumbnail1": "/images/art/sign/lg.png",
+        "person1": "/images/person/person-md-1.png",
+        "thumbnail2": "/images/art/sign/md.png",
+        "person2": "/images/person/person-md-2.png",
+        "thumbnail3": "/images/art/sign/sm.png",
+        "person3": "/images/person/person-md-2.png"
     }
 }
