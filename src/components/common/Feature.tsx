@@ -12,7 +12,7 @@ const Feature: React.FC<Props> = ({ title, author, author_name, btn, feat_lg, fe
   console.log({ feat_sm });
 
   return (
-    <div className="flex flex-col items-center md:items-start">
+    <div className="flex lg:flex-col items-center md:items-start">
       <div className="flex gap-2 mb-5">
         <div><img src={feat_lg} alt=""/></div>
         <div>

@@ -4,7 +4,7 @@ import TextPlate from "#components/common/TextPlate";
 const Service = () => {
   const service = serviceData.service;
   return (
-    <div className="md:section-gap section-gap-s relative bg-grayPrimary">
+    <div className="lg:section-gap section-gap-s relative bg-grayPrimary">
       <div className="container mx-auto">
         <div className="lg:flex lg:justify-between gap-5">
           <div className="lg:w-5/12">

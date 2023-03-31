@@ -13,8 +13,8 @@ const TextPlate:React.FC<Props> = ({icon, title, content}) => {
         <img src={icon} alt={title} className="w-20"/>
       </div>
       <div className="ml-4">
-        <div className="text-xl font-bold mb-4">{title}</div>
-        <p className="text-base text-paragraph">{content}</p>
+        <div className="text-xl font-bold font-DmSans mb-4">{title}</div>
+        <p className="text-base text-paragraph font-DmSans">{content}</p>
       </div>
     </div>
   )
