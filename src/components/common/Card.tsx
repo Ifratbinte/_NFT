@@ -29,7 +29,7 @@ const Card:React.FC<Props> = ({thumb, author,title,amount,stock,time,btn}) => {
         </div>
         <div className="flex justify-between items-center pt-1">
           <button className="text-primary text-xs bg-gray-100 px-4 py-2 font-semibold rounded-full">{time}</button>
-          <Link href="#" className='text-primary text-md font-DmSans hover:border-b'>{btn}</Link>
+          <Link href="#" className='text-primary text-md font-DmSans  hover:border-b'>{btn}</Link>
         </div>
       </div>
     </div>
