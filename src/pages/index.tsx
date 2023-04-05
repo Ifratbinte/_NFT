@@ -11,12 +11,12 @@ import Discover from "#/components/View/Discover";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Service />
-      <ArtBid />
-      <Feature/>
-      <SignUp/>
-      <Discover/>
+      {/* <Hero /> */}
+      {/* <Service /> */}
+      {/* <ArtBid /> */}
+      {/* <Feature/> */}
+      {/* <SignUp/> */}
+      {/* <Discover/> */}
     </>
   );
 }

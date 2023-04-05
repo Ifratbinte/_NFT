@@ -16,7 +16,9 @@ module.exports = {
         grayPrimaryLight: "#F2F3F5",
         paragraph: "#696969",
         danger: "#FF002E",
-        blue: "#2639ED"
+        blue: "#2639ED",
+        purple :'#854fff',
+        'purple-dim' :'#f2ecff',
       },
       fontFamily: {
         DmSans: ["DM Sans", "sans-serif"],
@@ -47,16 +49,16 @@ module.exports = {
         '.container': {
           maxWidth: '100%',
           '@screen sm': {
-            maxWidth: '640px',
+            maxWidth: '540px',
           },
           '@screen md': {
-            maxWidth: '768px',
+            maxWidth: '720px',
           },
           '@screen lg': {
-            maxWidth: '1280px',
+            maxWidth: '960px',
           },
           '@screen xl': {
-            maxWidth: '1400px',
+            maxWidth: '1200px',
           },
         }
       })

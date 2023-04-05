@@ -17,8 +17,8 @@ interface Props{
 const Banner:React.FC<Props> = ({id, image, author, author_name,title,ends_time, badge_title, bid_price, bid_hour}) => {
   return (
     
-      <div className={`${id === 0 && "z-30 -right-36" } ${id === 1 && "z-20 -right-10" } ${id === 2 && "z-10 right-32" } relative`}>
-        <img src={image} alt="" className= {`${id === 0 && "h-500 w-800" } ${id === 1 && "h-440 w-260" } ${id === 2 && "h-380 w-370" }`}/>
+      <div className= "relative">
+        <img src={image} alt=""/>
         <div className="absolute top-0 w-full h-full flex flex-col justify-between py-6 lg:px-10 px-5 ">
           <div>
             <h4 className="text-2xl text-white font-semibold font-DmSans">{title}</h4>

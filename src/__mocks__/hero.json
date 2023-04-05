@@ -1,7 +1,8 @@
 {
   "hero": {
+    "subtitle" : "Largest NFT Gallery",
     "title": "Discover, and Collect digital art nfts",
-    "content": "Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.",
+    "content": "Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets. Explore on the world's best NFT marketplace with our beautiful NFT products. ",
     "btn_name": "Explore Now",
     "badge": "/images/art-round/badge-1.png",
     "counter": [
@@ -34,14 +35,6 @@
           "ends_time": "Ends in",
           "bid_hour": "12h  43m  42s"
         }
-      },
-      {
-        "id": 2,
-        "image": "./images/banner/banner-2.png"
-      },
-      {
-        "id": 3,
-        "image": "./images/banner/banner-3.png"
       }
     ]
   }

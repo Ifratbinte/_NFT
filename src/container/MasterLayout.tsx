@@ -11,7 +11,7 @@ const MasterLayout: React.FC<Props> = ({ children }) => {
       <Head />
       <Header />
       {children}
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 };

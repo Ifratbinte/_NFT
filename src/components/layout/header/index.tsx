@@ -1,10 +1,11 @@
-import Menu from "#components/layout/header/Navbar/Menu";
+import Hero from "#/components/View/Hero";
+import HeaderMain from "#components/layout/header/Navbar/Menu";
 
 const Header = () => {
   return (
     <>
-      <Menu />
-      <div className="border border-1 border-b-slate-50"></div>
+      <HeaderMain />
+      <Hero/>
     </>
   );
 };
