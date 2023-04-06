@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <div className="container mx-auto section-gap">
       <div className="flex items-center justify-between flex-col lg:flex-row-reverse gap-10 h-4/5">
-        <div className="flex justify-end w-full relative">
+        <div className="flex lg:justify-end justify-center w-full relative">
           <div className="">
-            <img src={hero.badge} alt="" className="absolute z-10 top-32 left-28" />
+            <img src={hero.badge} alt="" className="hidden sm:block sm:absolute sm:z-10 top-32 xl:left-28 lg:left-0 md:left-24 sm:left-1 " />
           </div>
           <div className="flex justify-center items-center">
             {hero.banner.map((banner: any, i: number) => {

@@ -8,7 +8,7 @@ interface Props{
 
 const TextPlate:React.FC<Props> = ({icon, title, content}) => {
   return (
-    <div className="md:1/2 lg:w-4/12 flex lg:px-14 px-8 pb-6 lg:pb-0">
+    <div className="w-full sm:w-1/2 lg:w-2/3 flex px-4 pb-6 lg:pb-0">
       <div className="block">
         <img src={icon} alt={title} className="w-20"/>
       </div>

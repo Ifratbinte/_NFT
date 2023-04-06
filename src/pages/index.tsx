@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <>
       {/* <Hero /> */}
-      {/* <Service /> */}
-      {/* <ArtBid /> */}
+      <Service />
+      <ArtBid />
       {/* <Feature/> */}
       {/* <SignUp/> */}
       {/* <Discover/> */}

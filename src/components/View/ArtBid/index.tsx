@@ -6,7 +6,7 @@ import TopCollection from "../../common/TopCollection";
 const ArtBid = () => {
   const artBid = artBidData.art_bid;
   return (
-    <div className="container mx-auto md:section-gap section-gap-s">
+    <div className="container mx-auto section-gap">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12">
         <div>
           <div className="sm:w-2/3 md:w-full mx-auto">
