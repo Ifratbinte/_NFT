@@ -38,7 +38,7 @@ const CTA = () => {
           </div>
         </div>
         <div className="lg:w-1/2 text-center lg:text-left">
-          <h2 className="font-bold lg:text-4xl text-2xl font-integralCF lg:w-1/2 lg:mb-8 mb-6">{cta.title}</h2>
+          <h2 className="font-bold lg:text-4xl text-2xl font-DmSans lg:w-1/2 lg:mb-8 mb-6">{cta.title}</h2>
           <p className="text-paragraph font-DmSans text-base px-2 lg:pr-32 pb-8">{cta.content}</p>
           <button className="border border-1 border-primary rounded-full px-8 py-3 bg-primary text-white">{cta.btn}</button>
         </div>

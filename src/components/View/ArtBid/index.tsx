@@ -7,14 +7,14 @@ const ArtBid = () => {
   const artBid = artBidData.art_bid;
   return (
     <div className="container mx-auto section-gap">
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 md:gap-10 lg:gap-8 xl:gap-12">
         <div>
           <div className="sm:w-2/3 md:w-full mx-auto">
             <img src={artBid.img} alt="" />
           </div>
           <AuthBid author={artBid.author} author_name={artBid.author_name} stock={artBid.stock} bid_title={artBid.bid_title} bid_amount={artBid.bid_amount} />
         </div>
-        <div className="sm:w-2/3 md:w-full mx-auto">
+        <div className="sm:w-full mx-auto">
           {artBid.bid_item.map((item: any, i: number) => {
             return (
               <BidImage
@@ -29,8 +29,8 @@ const ArtBid = () => {
             );
           })}
         </div>
-        <div className="text-center lg:text-left">
-          <h4 className="text-xl md:text-2xl font-integralCF mb-2">{artBid.collection_title}</h4>
+        <div className="w-full text-center lg:text-left">
+          <h4 className="text-xl xl:text-2xl font-DmSans font-bold mb-2">{artBid.collection_title}</h4>
           <span className="text-primary font-semibold">{artBid.days}</span>
           <div className="mt-3 sm:w-2/3 md:w-full mx-auto">
             {artBid.collection.map((collection: any, i: number) => {

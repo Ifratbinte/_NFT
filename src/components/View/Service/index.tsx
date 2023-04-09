@@ -8,7 +8,7 @@ const Service = () => {
       <div className="container mx-auto">
         <div className="lg:flex lg:justify-between gap-5">
           <div className="lg:w-1/3">
-            <h3 className="xl:text-3xl sm:text-2xl text-xl font-integralCF xl:w-5/6 mb-8 lg:mb-0 text-center lg:text-left">{service.title}</h3>
+            <h3 className="xl:text-3xl sm:text-2xl text-xl font-DmSans font-bold xl:w-5/6 mb-8 lg:mb-0 text-center lg:text-left">{service.title}</h3>
           </div>
           <div className="lg:w-2/3 sm:flex sm:items-center">
             {service.item.map((service: any, i: number) => {

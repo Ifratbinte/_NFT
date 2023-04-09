@@ -30,17 +30,15 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full text-center lg:text-left">
-          <span className="font-DmSans uppercase font-semibold tracking-wide text-purple px-5 py-2 rounded-full bg-purple-dim text-sm">
-            {hero.subtitle}
-          </span>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-integralCF my-5">{hero.title}</h2>
+          <span className="font-DmSans uppercase font-semibold tracking-wide text-purple px-5 py-2 rounded-full bg-purple-dim text-sm">{hero.subtitle}</span>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-DmSans font-bold tracking-tighter my-5">{hero.title}</h2>
           <p className="text-lg font-DmSans text-paragraph mb-9">{hero.content}</p>
           <Button btn_name={hero.btn_name} />
           <ul className="flex items-center lg:justify-between justify-center lg:w-2/3 mt-6">
             {hero?.counter?.map((counter: any, i: number) => {
               return (
                 <li key={i} className="">
-                  <div className="text-4xl font-integralCF font-bold">{counter.title}</div>
+                  <div className="text-4xl font-DmSans font-bold">{counter.title}</div>
                   <span className="text-md">{counter.subtitle}</span>
                 </li>
               );

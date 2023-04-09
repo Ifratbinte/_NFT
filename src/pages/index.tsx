@@ -14,9 +14,9 @@ export default function Home() {
       {/* <Hero /> */}
       <Service />
       <ArtBid />
-      {/* <Feature/> */}
+      <Feature/>
       {/* <SignUp/> */}
-      {/* <Discover/> */}
+      <Discover/>
     </>
   );
 }
