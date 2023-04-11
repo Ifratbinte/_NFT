@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',                                                               
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -70,6 +71,21 @@ module.exports = {
           "@screen xl": {
             maxWidth: "1200px",
           },
+        },
+        ".section-gap": {
+          padding: "130px 0"
+        },
+        ".section-gap-s": {
+          padding: "75px 0"
+        },
+        ".section-gap-xs": {
+          padding: "35px 0"
+        },
+        ".section-b-gap": {
+          paddingBottom: "120px"
+        },
+        ".section-b-gap-s": {
+          paddingBottom: "75px"
         },
       });
     },

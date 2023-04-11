@@ -16,7 +16,7 @@ const Card:React.FC<Props> = ({thumb, author,title,amount,stock,time,btn}) => {
   console.log({author});
   
   return (
-    <div className="max-w-sm rounded-xl overflow-hidden shadow-sm bg-white p-3 ">
+    <div className="max-w-sm rounded overflow-hidden shadow-sm bg-white p-3 ">
       <img className="w-full" src={thumb} alt={title}/>
       <div className="flex">
         {author?.map((author:any, i:number) => <img key={i} src={author.avatar} alt="" />)}

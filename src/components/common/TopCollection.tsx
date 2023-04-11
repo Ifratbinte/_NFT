@@ -21,11 +21,11 @@ const TopCollection: React.FC<Props> = ({ id, image, title, amount, verify_badge
           {isVerify && <img src={verify_badge} alt="" className="absolute top-2 left-16" />}
         </div>
       <div className="ml-2">
-        <h6 className="font-DmSans text-lg font-semibold text-black">{title}</h6>
+        <h6 className="font-DmSans text-md sm:text-lg font-semibold text-black">{title}</h6>
         <span className="flex items-center text-sm text-slate-800 font-semibold mt-1 xl:mt-2 font-DmSans"><FaEthereum className="mr-1 text-xl"/>{amount}</span>
       </div>
-      {in_sell && <div className="text-teal-300 text-lg xl:text-xl font-bold font-DmSans absolute right-0">{in_sell}</div>}
-      {de_sell && <div className="text-danger text-lg xl:text-xl font-bold font-DmSans absolute right-0">{de_sell}</div>}
+      {in_sell && <div className="text-teal-300 text-md xl:text-xl font-bold font-DmSans absolute right-0">{in_sell}</div>}
+      {de_sell && <div className="text-danger text-md xl:text-xl font-bold font-DmSans absolute right-0">{de_sell}</div>}
     </div>
   );
 };
