@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',                                                               
+  darkMode: "class",
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -12,21 +12,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#3D00B7",
-        grayPrimary: "#F7F9FB",
-        grayPrimaryLight: "#F2F3F5",
-        paragraph: "#8091a7",
-        danger: "#FF002E",
-        blue: "#2639ED",
-        purple: "#854fff",
-        "purple-dim": "#f2ecff",
+        'base-color' : '#474747',
+        'base-light' : '#A4A4A4',
+        'base-dark' : '#000000'
       },
       fontFamily: {
-        DmSans: ["DM Sans", "sans-serif"],
-        integralCF: ["integralCF", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
         "hero-gfx": "url('/images/gfx/dot.png')",
+      },
+      boxShadow: {
+        btnBoxShadow: "inset -3px -3px 0px #000000",
+        cardShadow : '0px 24px 80px rgba(16, 16, 117, 0.08)'
       },
       height: {
         "70v": "70vh",
@@ -37,30 +35,16 @@ module.exports = {
         440: "440px",
         380: "380px",
       },
-      width: {
-        800: "800px",
-        260: "260px",
-        370: "370px",
-      },
+      
       padding: {
-        "gap-y": "135px",
+        "gap-y": "130px",
         "gap-y-s": "75px",
         "gap-b": "120px",
-        "gap-b-s": "75px",
+        "gap-b-s": "60px",
 
-        "135px": "135px",
+        "130px": "130px",
         "120px": "120px",
-        "75px": "75px",
-      },
-      screens: {
-        'tablet': '640px',
-        // => @media (min-width: 640px) { ... }
-  
-        'laptop': '1024px',
-        // => @media (min-width: 1024px) { ... }
-  
-        'desktop': '1280px',
-        // => @media (min-width: 1280px) { ... }
+        "60px": "60px",
       },
     },
   },
@@ -83,19 +67,19 @@ module.exports = {
           },
         },
         ".section-gap": {
-          padding: "130px 0"
+          padding: "130px 0",
         },
         ".section-gap-s": {
-          padding: "75px 0"
+          padding: "75px 0",
         },
         ".section-gap-xs": {
-          padding: "35px 0"
+          padding: "35px 0",
         },
         ".section-b-gap": {
-          paddingBottom: "120px"
+          paddingBottom: "120px",
         },
         ".section-b-gap-s": {
-          paddingBottom: "75px"
+          paddingBottom: "75px",
         },
       });
     },

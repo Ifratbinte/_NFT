@@ -2,16 +2,13 @@ import React from "react";
 
 interface ButtonProps {
   btn_name: string;
-  isOutline?: boolean;
+  isLarge?: boolean;
 }
 
-const BtnPrimary: React.FC<ButtonProps> = ({ btn_name, isOutline }) => {
+const BtnPrimary: React.FC<ButtonProps> = ({ btn_name, isLarge }) => {
   return (
     <button
-      className={`${
-        isOutline ? "bg-white text-primary hover:bg-primary hover:text-white transition-all px-6" : "bg-primary text-white px-5"
-      } py-2 font-semibold text-md rounded shadow-sm border-primary border-2 border-solid font-DmSans`}
-    >
+      className={`${isLarge ? "px-12 py-3" : ""} shadow-btnBoxShadow border-solid border border-slate-500 bg-white px-8 py-2 rounded-md `}>
       {btn_name}
     </button>
   );

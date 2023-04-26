@@ -10,7 +10,7 @@ const BtnPrimary: React.FC<ButtonProps> = ({ btn_name, isDark }) => {
     <button
       className={`${
         !isDark ? "bg-white text-slate-800 transition-all " : "bg-primary text-white px-5"
-      } p-3 font-semibold text-lg rounded shadow border-solid font-DmSans`}
+      } p-3 font-semibold text-lg rounded shadow border-solid`}
     >
       {btn_name}
     </button>

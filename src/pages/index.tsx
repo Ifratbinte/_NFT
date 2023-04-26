@@ -1,23 +1,11 @@
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-
-import ArtBid from "#/components/View/ArtBid";
-import Service from "#/components/View/Service";
-import Hero from "#components/View/Hero";
-import Feature from "#/components/View/Feature";
-import SignUp from "#components/View/SignUp"
-// import Discover from "#/components/View/Discover";
-import Discover from "#/components/View/Discover/discover";
-export default function Home() {
+import Hero from "#/components/View/Home/Hero";
+export default function HomePage() {
   return (
     <>
-      {/* <Hero /> */}
-      <Service />
-      <ArtBid />
-      <Feature/>
-      {/* <SignUp/> */}
-      <Discover/>
+      <Hero />
     </>
   );
 }
+
+
+

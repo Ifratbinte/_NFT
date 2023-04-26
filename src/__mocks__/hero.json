@@ -1,25 +1,24 @@
 {
   "hero": {
-    "subtitle" : "Largest NFT Gallery",
-    "title": "Discover, and Collect digital art nfts",
-    "content": "Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets. Explore on the world's best NFT marketplace with our beautiful NFT products. ",
+    "title": "Free skill up your programming languages",
+    "content": "Ultricies mi eget mauris pharetra et ultrices neque. Scelerisque in dictum non consectetur a erat nam at lectus. Sit amet risus nullam eget felis.",
     "btn_name": "Explore Now",
-    "badge": "/images/art-round/badge-1.png",
+    "thumb": "/images/banner/thumb1.png",
     "counter": [
       {
         "id": 1,
-        "title": "98K+",
-        "subtitle": "Artwork"
+        "point": "98K+",
+        "topic": "Artwork"
       },
       {
         "id": 2,
-        "title": "12K+",
-        "subtitle": "Auction"
+        "point": "12K+",
+        "topic": "Auction"
       },
       {
         "id": 3,
-        "title": "15K+",
-        "subtitle": "Artist"
+        "point": "15K+",
+        "topic": "Artist"
       }
     ],
     "banner": [
