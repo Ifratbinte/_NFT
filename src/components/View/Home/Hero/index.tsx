@@ -28,7 +28,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-12">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-12">
         <div className="grid grid-cols-2 gap-6">
           {hero?.course?.card?.map((course: any) => (
             <CourseCard
@@ -42,7 +42,7 @@ const Hero = () => {
           ))}
         </div>
         <div>
-          <TextBlock title={hero.course.title} paragraph={hero.course.content} title_style="lg:text-4xl text-3xl" />
+          {/* <TextBlock title={hero.course.title} paragraph={hero.course.content} title_style="lg:text-4xl text-3xl" /> */}
           <Button btn_name="Enroll Now" />
         </div>
       </div>

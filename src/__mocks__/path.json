@@ -1,0 +1,23 @@
+{
+  "title" : "How to go path",
+  "path": [
+    {
+      "title" : "Intro Courses"
+    },
+    {
+      "title" : "Mentorship"
+    },
+    {
+      "title" : "Advanced courses"
+    },
+    {
+      "title" : "Projects"
+    },
+    {
+      "title" : "Internship"
+    },
+    {
+      "title" : "Company"
+    }
+  ]
+}

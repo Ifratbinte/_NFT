@@ -25,7 +25,8 @@ module.exports = {
       },
       boxShadow: {
         btnBoxShadow: "inset -3px -3px 0px #000000",
-        cardShadow : '0px 24px 80px rgba(16, 16, 117, 0.08)'
+        cardShadow : '0px 24px 80px rgba(16, 16, 117, 0.08)',
+        baseShadow : '8px 60px 72px rgba(30, 32, 41, 0.04)'
       },
       height: {
         "70v": "70vh",
