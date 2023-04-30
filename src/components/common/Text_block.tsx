@@ -5,7 +5,7 @@ interface Props {
   title_style?: string
 }
 
-const Banner: React.FC<Props> = ({ title, paragraph, title_style="text-lg" }) => {
+const TextBlock: React.FC<Props> = ({ title, paragraph, title_style="text-lg" }) => {
   return (
     <>
       <div className={`${title_style} font-bold !leading-tight mb-6`}>{title}</div>
@@ -14,4 +14,4 @@ const Banner: React.FC<Props> = ({ title, paragraph, title_style="text-lg" }) =>
   );
 };
 
-export default Banner;
+export default TextBlock;

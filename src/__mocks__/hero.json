@@ -3,7 +3,7 @@
     "title": "Free skill up your programming languages",
     "content": "Ultricies mi eget mauris pharetra et ultrices neque. Scelerisque in dictum non consectetur a erat nam at lectus. Sit amet risus nullam eget felis.",
     "btn_name": "Explore Now",
-    "thumb": "/images/banner/thumb1.png",
+    "thumb": "/images/hero/thumb1.png",
     "counter": [
       {
         "id": 1,
@@ -21,20 +21,27 @@
         "topic": "Artist"
       }
     ],
-    "banner": [
-      {
-        "id": 1,
-        "image": "./images/banner/banner-1.png",
-        "title": "Abstr Gradient NFT",
-        "author": "/images/person/person-1.png",
-        "author_name": "Arkhan17",
-        "badge": {
-          "title": "Current Bid",
-          "bid_price": "0.25 ETH",
-          "ends_time": "Ends in",
-          "bid_hour": "12h  43m  42s"
+    "course" : {
+      "title" : "We have the best courses for free",
+      "content" : "Ultricies mi eget mauris pharetra et ultrices neque. Scelerisque in dictum non consectetur a erat nam at lectus. Sit amet risus nullam eget felis. Egestas dui id ornare arcu odio ut sem nulla. Justo laoreet sit amet cursus sit amet dictum. Id velit ut tortor pretium.",
+      "card" : [
+        {
+          "id" : 1,
+          "thumb" : "images/hero/course1.png",
+          "badge" : "Beginner",
+          "title" : "Java programming course complete beginners",
+          "rating" : "4.5",
+          "total_rating" : "41,103"
+        },
+        {
+          "id" : 2,
+          "thumb" : "images/hero/course2.png",
+          "badge" : "Intermediate",
+          "title" : "Beginning c++ programming from intermediate beyond",
+          "rating" : "4.5",
+          "total_rating" : "41,103"
         }
-      }
-    ]
+      ]
+    }
   }
 }

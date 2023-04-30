@@ -14,7 +14,8 @@ module.exports = {
       colors: {
         'base-color' : '#474747',
         'base-light' : '#A4A4A4',
-        'base-dark' : '#000000'
+        'base-dark' : '#000000',
+        'base-yellow' : '#EA9C45'
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
