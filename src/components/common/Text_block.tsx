@@ -1,7 +1,7 @@
 import React from "react";
 interface Props {
-  title: string;
-  paragraph: string;
+  title: string
+  paragraph: string
   title_style?: string
 }
 

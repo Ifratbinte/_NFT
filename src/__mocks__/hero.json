@@ -27,7 +27,7 @@
       "card" : [
         {
           "id" : 1,
-          "thumb" : "images/hero/course1.png",
+          "thumb" : "/images/hero/course1.png",
           "badge" : "Beginner",
           "title" : "Java programming course complete beginners",
           "rating" : "4.5",
@@ -35,7 +35,7 @@
         },
         {
           "id" : 2,
-          "thumb" : "images/hero/course2.png",
+          "thumb" : "/images/hero/course2.png",
           "badge" : "Intermediate",
           "title" : "Beginning c++ programming from intermediate beyond",
           "rating" : "4.5",

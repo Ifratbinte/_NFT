@@ -38,6 +38,7 @@ const Hero = () => {
               title={course.title}
               rating={course.rating}
               total_rating={course.total_rating}
+              title_style='text-sm'
             />
           ))}
         </div>
