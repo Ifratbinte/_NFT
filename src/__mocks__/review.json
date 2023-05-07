@@ -1,18 +1,19 @@
 {
- "review" : [
-  {
-    "id" : 1,
-    "avatar" : "/images/avatar/avatar-md-1.png",
-    "name" : "Leslie Alexan",
-    "title" : "CSC Engineer",
-    "review" : "Many of my coworkers choose to use disten for continuing education. Yes, the courses may be longer than others, but they're more detailed."
-  },
-  {
-    "id" : 2,
-    "avatar" : "/images/avatar/avatar-md-2.png",
-    "name" : "Leslie Alexan",
-    "title" : "CSC Engineer",
-    "review" : "Many of my coworkers choose to use disten for continuing education. Yes, the courses may be longer than others, but they're more detailed."
-  }
- ]
+  "title": "Testimonial",
+  "reviews": [
+    {
+      "id": 1,
+      "avatar": "/images/avatar/avatar-md-1.png",
+      "name": "Leslie Alexan",
+      "designation": "CSC Engineer",
+      "content": "Many of my coworkers choose to use disten for continuing education. Yes, the courses may be longer than others, but they're more detailed."
+    },
+    {
+      "id": 2,
+      "avatar": "/images/avatar/avatar-md-2.png",
+      "name": "Marvin Mconer",
+      "designation": "R&D Engineer",
+      "content": "Many of my coworkers choose to use disten for continuing education. Yes, the courses may be longer than others, but they're more detailed."
+    }
+  ]
 }
