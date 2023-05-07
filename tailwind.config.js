@@ -72,7 +72,7 @@ module.exports = {
           padding: "130px 0",
         },
         ".section-gap-s": {
-          padding: "75px 0",
+          padding: "80px 0",
         },
         ".section-gap-xs": {
           padding: "35px 0",
@@ -81,7 +81,7 @@ module.exports = {
           paddingBottom: "120px",
         },
         ".section-b-gap-s": {
-          paddingBottom: "75px",
+          paddingBottom: "80px",
         },
       });
     },
