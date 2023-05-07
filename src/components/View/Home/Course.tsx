@@ -4,7 +4,7 @@ import React from 'react'
 
 const Course = () => {
   return (
-    <div className='container mx-auto section-gap'>
+    <div className='container mx-auto section-gap-s'>
        <h1 className="text-4xl font-bold mb-14 text-left">{courseItem.course.title}</h1>
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
       {courseItem?.course?.card?.map((course: any) => (
