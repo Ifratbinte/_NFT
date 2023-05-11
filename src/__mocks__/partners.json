@@ -1,0 +1,37 @@
+{
+  "title" : "Oer Partners",
+  "partners" : [
+    {
+      "id" : 1,
+      "logo" : "/images/logo/partner/aero.jpg"
+    },
+    {
+      "id" : 2,
+      "logo" : "/images/logo/partner/cape.png"
+    },
+    {
+      "id" : 3,
+      "logo" : "/images/logo/partner/godaddy.png"
+    },
+    {
+      "id" : 4,
+      "logo" : "/images/logo/partner/pax.png"
+    },
+    {
+      "id" : 5,
+      "logo" : "/images/logo/partner/petro.png"
+    },
+    {
+      "id" : 6,
+      "logo" : "/images/logo/partner/shortcut.png"
+    },
+    {
+      "id" : 7,
+      "logo" : "/images/logo/partner/walmart.png"
+    },
+    {
+      "id" : 8,
+      "logo" : "/images/logo/partner/wework.png"
+    }
+  ]
+}

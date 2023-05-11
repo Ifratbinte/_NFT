@@ -2,6 +2,7 @@ import Counter from "#/components/View/Home/Counter";
 import Course from "#/components/View/Home/Course";
 import Hero from "#/components/View/Home/Hero";
 import Mentor from "#/components/View/Home/Mentor";
+import Partners from "#/components/View/Home/Partners";
 import Path from "#/components/View/Home/Path";
 import Review from "#/components/View/Home/Review";
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
       <Course/>
       <Review/>
       <Mentor/>
+      <Partners/>
     </>
   );
 }

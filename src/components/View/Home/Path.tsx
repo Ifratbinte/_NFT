@@ -1,5 +1,5 @@
 import pathItem from "#mocks/path.json";
-import styles from "./path.module.css"
+import styles from "./home.module.css"
 
 const Path = () => {
   return (
