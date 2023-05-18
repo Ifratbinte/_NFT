@@ -23,6 +23,8 @@
       "#config/*": ["./src/config/*"],                      
       "#mocks/*": ["./src/__mocks__/*"],                      
       "#interface/*": ["./src/interface/*"],                      
+      "#helpers/*": ["./src/helpers/*"],                      
+      "#styles/*": ["./src/styles/*"],                      
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

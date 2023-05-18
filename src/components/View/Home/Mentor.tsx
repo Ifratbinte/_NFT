@@ -1,14 +1,22 @@
 import MentorCard from "#/components/common/MentorCard";
+import SliderOptions from "#/helpers/slider-init-value";
 import mentor from "#mocks/mentor.json";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import Slider from "react-slick";
+import style from './home.module.css'
 
 const Mentor = () => {
+  const slide = { ...SliderOptions, nextArrow: <FiChevronRight />, prevArrow: <FiChevronLeft /> };
+
   return (
     <div className="container mx-auto section-gap-s">
       <h1 className="text-4xl font-bold mb-10 text-left">{mentor.title}</h1>
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
-        {mentor.mentors.map((mentor: any) => {
-          return <MentorCard key={mentor.id} avatar={mentor.avatar} name={mentor.name} designation={mentor.designation} />;
-        })}
+      <div className="gap-10">
+        <Slider {...slide} className={`${style.slick_slide}`}>
+          {mentor.mentors.map((mentor: any) => {
+            return <MentorCard key={mentor.id} avatar={mentor.avatar} name={mentor.name} designation={mentor.designation} />;
+          })}
+        </Slider>
       </div>
     </div>
   );

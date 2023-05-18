@@ -24,6 +24,12 @@
       "avatar" : "/images/avatar/avatar-lg-4.png",
       "name" : "Marvin Mconer",
       "designation" : "Developer"
+    },
+    {
+      "id" : 5,
+      "avatar" : "/images/avatar/avatar-lg-5.png",
+      "name" : "Floyd Milenes",
+      "designation" : "Software Engineer"
     }
   ]
 }

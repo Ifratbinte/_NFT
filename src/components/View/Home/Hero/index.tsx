@@ -1,5 +1,5 @@
+import CourseCard from "#/components/common/Card";
 import Counter from "#/components/common/CounterTemp";
-import CourseCard from "#/components/common/CourseCard";
 import Button from "#components/Button/btnPrimary";
 import TextBlock from "#components/common/Text_block";
 import heroData from "#mocks/hero.json";
@@ -38,7 +38,8 @@ const Hero = () => {
               title={course.title}
               rating={course.rating}
               total_rating={course.total_rating}
-              title_style='text-sm'
+              title_style="text-sm"
+              id={course.id}
             />
           ))}
         </div>
