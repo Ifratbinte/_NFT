@@ -4,7 +4,7 @@
     "card": [
       {
         "id": 1,
-        "thumb": "/images/course/course-1.png",
+        "thumb": "/images/thumb/course-1.png",
         "badge": "Beginner",
         "title": "Java programming course complete beginners",
         "desc": "Many of my coworkers choose to use disten for continuing...",
@@ -16,7 +16,7 @@
       },
       {
         "id": 2,
-        "thumb": "/images/course/course-2.png",
+        "thumb": "/images/thumb/course-2.png",
         "badge": "Intermediate",
         "title": "Beginning c++ programming from intermediate beyond",
         "desc": "Many of my coworkers choose to use disten for continuing...",
@@ -28,7 +28,7 @@
       },
       {
         "id": 3,
-        "thumb": "/images/course/course-3.png",
+        "thumb": "/images/thumb/course-3.png",
         "badge": "Advanced",
         "title": "PLC programming from scratch (PLCI)",
         "desc": "Many of my coworkers choose to use disten for continuing...",

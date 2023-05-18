@@ -1,9 +1,9 @@
 import CardInterface from "#/interface/card";
 import React from "react";
-import { FiClock, FiLayers, FiUsers } from "react-icons/fi";
+import { FiChevronRight, FiClock, FiLayers, FiUsers } from "react-icons/fi";
 import Star from "./stars";
 
-const Card: React.FC<CardInterface> = ({ thumb, badge, title, desc, rating, total_rating, student, lecture, time, title_style = "text-sm" }) => {
+const Card: React.FC<CardInterface> = ({ thumb, badge, title, desc, rating, total_rating, student, lecture, time, title_style, btn = "text-sm" }) => {
   return (
     <>
       <div className="rounded-lg shadow-cardShadow">
@@ -14,13 +14,16 @@ const Card: React.FC<CardInterface> = ({ thumb, badge, title, desc, rating, tota
         <div className="p-6">
           <div className={`${title_style} leading-relaxed font-bold mb-2`}>{title}</div>
           <p className="text-base text-base-color mb-3">{desc}</p>
-          <div className="flex items-center">
-            <div className="text-base-yellow flex items-center">
-              <span className="font-semibold">{rating}</span>
-              <Star number={2} />
+          {rating && (
+            <div className="flex items-center">
+              <div className="text-base-yellow flex items-center">
+                <span className="font-semibold">{rating}</span>
+                <Star number={2} />
+              </div>
+              <span className="text-base-color text-sm ml-2">{total_rating} ratings</span>
             </div>
-            <span className="text-base-color text-sm ml-2">{total_rating} ratings</span>
-          </div>
+          )}
+
           {student && (
             <div className="flex items-center">
               <FiUsers />
@@ -42,6 +45,10 @@ const Card: React.FC<CardInterface> = ({ thumb, badge, title, desc, rating, tota
               </div>
             )}
           </div>
+          <a href="#" className="flex items-center">
+            <span>{btn}</span>
+            <FiChevronRight className="ml-2" />
+          </a>
         </div>
       </div>
     </>

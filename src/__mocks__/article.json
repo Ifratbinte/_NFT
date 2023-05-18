@@ -1,0 +1,29 @@
+{
+  "article": {
+    "title": "Programming Articles",
+    "card": [
+      {
+        "id": 1,
+        "thumb": "/images/thumb/article-1.png",
+        "title": "Improve your focus product with this Python tool",
+        "desc": "Praesent nisl neque vestibulum vitae sag eu gravida vitae erat Nam commodo nisl non velit efficitur malesuada.",
+        "btn" : "Read More"
+      },
+      {
+        "id": 2,
+        "thumb": "/images/thumb/article-2.png",
+        "title": "Change your inner intent life will turn around.",
+        "desc": "Praesent nisl neque vestibulum vitae sag eu gravida vitae erat Nam commodo nisl non velit efficitur malesuada.",
+        "btn" : "Read More"
+      },
+      {
+        "id": 3,
+        "thumb": "/images/thumb/article-3.png",
+        "badge": "Advanced",
+        "title": "Top Programming Languages for Data Science in 2020",
+        "desc": "Praesent nisl neque vestibulum vitae sag eu gravida vitae erat Nam commodo nisl non velit efficitur malesuada.",
+        "btn" : "Read More"
+      }
+    ]
+  }
+}
