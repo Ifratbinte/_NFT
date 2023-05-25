@@ -8,10 +8,10 @@ interface Props {
 const stars: React.FC<Props> = ({ number }) => {
   return (
     <div className="flex items-center ml-2">
-      {[1, 2, 3, 4, 5].map((i) => {
+      {[5, 4, 3, 2, 1].map((i) => {
         if (number <= i) {
           console.log("aa", i);
-          return <FaStar className="mr-1" />;
+          return <FaStar className="mr-1 last:mr-0" />;
         } else {
           return <FaStarHalfAlt className="mr-1" />;
         }

@@ -12,10 +12,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'base-color' : '#474747',
-        'base-light' : '#A4A4A4',
-        'base-dark' : '#000000',
-        'base-yellow' : '#EA9C45'
+        "base-color": "#474747",
+        "base-light": "#A4A4A4",
+        "base-dark": "#000000",
+        "base-yellow": "#EA9C45",
+        // 'base-lightGray' : '#E5E5E5'
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -25,8 +26,8 @@ module.exports = {
       },
       boxShadow: {
         btnBoxShadow: "inset -3px -3px 0px #000000",
-        cardShadow : '0px 24px 50px rgba(16, 16, 117, 0.08)',
-        baseShadow : '8px 60px 72px rgba(30, 32, 41, 0.04)'
+        cardShadow: "0px 24px 50px rgba(16, 16, 117, 0.08)",
+        baseShadow: "8px 60px 72px rgba(30, 32, 41, 0.04)",
       },
       height: {
         "70v": "70vh",
@@ -37,7 +38,7 @@ module.exports = {
         440: "440px",
         380: "380px",
       },
-      
+
       padding: {
         "gap-y": "130px",
         "gap-y-s": "75px",

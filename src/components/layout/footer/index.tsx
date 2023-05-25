@@ -5,7 +5,7 @@ import FooterBottom from "./footerBottom";
 const index = () => {
   const footer = footerData.footer;
   return (
-    <>
+    <div className="bg-slate-50">
       <CTA />
       <div className="container mx-auto section-gap-s">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-14 py-4">
@@ -41,7 +41,7 @@ const index = () => {
         </div>
       </div>
       <FooterBottom />
-    </>
+    </div>
   );
 };
 
