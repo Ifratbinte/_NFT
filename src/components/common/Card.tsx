@@ -2,11 +2,12 @@ import CardInterface from "#/interface/card";
 import React from "react";
 import { FiChevronRight, FiClock, FiLayers, FiUsers } from "react-icons/fi";
 import Star from "./stars";
+import Link from 'next/link';
 
 const Card: React.FC<CardInterface> = ({ thumb, badge, btn, desc, rating, total_rating, student, lecture, time, title_style, title = "text-sm" }) => {
   return (
-    <>
-      <a href="#" className="rounded-lg shadow-cardShadow">
+    
+      <div className="rounded-lg shadow-cardShadow">
         <div className="relative">
           <img src={thumb} alt={badge} />
           <span className="bg-slate-100 text-black absolute bottom-3 left-3 px-3 py-1 rounded text-sm">{badge}</span>
@@ -46,14 +47,14 @@ const Card: React.FC<CardInterface> = ({ thumb, badge, btn, desc, rating, total_
             )}
           </div>
           {btn && (
-            <a href="#" className="flex items-center hover:text-sky-500 font-semibold transition-all">
+            <Link href="#" className="flex items-center hover:text-sky-500 font-semibold transition-all">
               <span>{btn}</span>
               <FiChevronRight className="ml-2" />
-            </a>
+            </Link>
           )}
         </div>
-      </a>
-    </>
+      </div>
+    
   );
 };
 

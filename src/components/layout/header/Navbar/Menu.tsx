@@ -1,5 +1,5 @@
-import { default as DarkMode } from "#/components/Button/btnDarkMode";
-import { default as ButtonPrimary } from "#components/Button/btnPrimary";
+import BtnPrimary from "#/components/button/btnPrimary";
+import BtnDark from "#/components/button/btnDark";
 import { useState } from "react";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
@@ -25,8 +25,8 @@ const Menu = () => {
             <Navigation />
           </div>
           <div className="lg:flex lg:items-center lg:gap-4 xl:gap-3 hidden">
-            <ButtonPrimary btn_name="Sign In" />
-            <DarkMode btn_name={<BsMoonStarsFill />} />
+            <BtnPrimary btn_name="Sign In" />
+            <BtnDark btn_name={<BsMoonStarsFill />} />
           </div>
           <button className="btn visible lg:hidden" onClick={() => setIsVisible((prevState) => !prevState)}>
             <FiAlignRight className="text-2xl lg:relative text-primary" />

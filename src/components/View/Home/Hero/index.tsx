@@ -44,7 +44,7 @@ const Hero = () => {
           ))}
         </div>
         <div>
-          <TextBlock title={heroData.hero.course.title} paragraph={heroData.hero.course.content} title_style="lg:text-4xl text-3xl w-5/6"/>
+          <TextBlock title={heroData.hero.course.title} paragraph={heroData.hero.course.content} title_style="lg:text-4xl text-3xl w-5/6" />
           <Button btn_name="Enroll Now" />
         </div>
       </div>

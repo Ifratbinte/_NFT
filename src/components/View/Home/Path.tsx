@@ -1,6 +1,6 @@
 import PathItem from "#/components/common/Path";
 import pathItem from "#mocks/path.json";
-import styles from "./home.module.css";
+import styles from "#styles/home.module.css";
 
 const Path = () => {
   return (

@@ -1,9 +1,9 @@
 import MentorCard from "#/components/common/MentorCard";
 import SliderOptions from "#/helpers/slider-init-value";
 import mentor from "#mocks/mentor.json";
+import style from "#styles/home.module.css";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Slider from "react-slick";
-import style from './home.module.css'
 
 const Mentor = () => {
   const slide = { ...SliderOptions, nextArrow: <FiChevronRight />, prevArrow: <FiChevronLeft /> };

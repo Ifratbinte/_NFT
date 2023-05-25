@@ -5,7 +5,7 @@ interface ButtonProps {
   isDark?: boolean;
 }
 
-const BtnPrimary: React.FC<ButtonProps> = ({ btn_name, isDark }) => {
+const BtnDark: React.FC<ButtonProps> = ({ btn_name, isDark }) => {
   return (
     <button
       className={`${
@@ -17,4 +17,4 @@ const BtnPrimary: React.FC<ButtonProps> = ({ btn_name, isDark }) => {
   );
 };
 
-export default BtnPrimary;
+export default BtnDark;
