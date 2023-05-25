@@ -1,6 +1,6 @@
 import CourseCard from "#/components/common/Card";
 import Counter from "#/components/common/CounterTemp";
-import Button from "#components/Button/btnPrimary";
+import Button from "#components/button/btnPrimary";
 import TextBlock from "#components/common/Text_block";
 import heroData from "#mocks/hero.json";
 import { useEffect, useState } from "react";
@@ -44,7 +44,7 @@ const Hero = () => {
           ))}
         </div>
         <div>
-          {/* <TextBlock title={hero.course.title} paragraph={hero.course.content} title_style="lg:text-4xl text-3xl" /> */}
+          <TextBlock title={heroData.hero.course.title} paragraph={heroData.hero.course.content} title_style="lg:text-4xl text-3xl w-5/6"/>
           <Button btn_name="Enroll Now" />
         </div>
       </div>

@@ -1,11 +1,12 @@
-import Counter from "#/components/View/Home/Counter";
-import Course from "#/components/View/Home/Course";
-import Hero from "#/components/View/Home/Hero";
-import Mentor from "#/components/View/Home/Mentor";
-import Partners from "#/components/View/Home/Partners";
-import Path from "#/components/View/Home/Path";
-import Review from "#/components/View/Home/Review";
-import Article from "#components/View/Home/Article";
+import Article from "#/components/view/home/article";
+import Counter from "#/components/view/home/counter";
+import Course from "#/components/view/home/course";
+import CTA from "#/components/view/home/cta";
+import Hero from "#/components/view/home/hero";
+import Mentor from "#/components/view/home/mentor";
+import Partners from "#/components/view/home/partners";
+import Path from "#/components/view/home/path";
+import Review from "#/components/view/home/review";
 export default function HomePage() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function HomePage() {
       <Mentor />
       <Partners />
       <Article />
+      <CTA />
     </>
   );
 }

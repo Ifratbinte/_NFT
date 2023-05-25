@@ -1,5 +1,5 @@
 const SliderOptions = {
-  autoplay: true,
+  // autoplay: true,
   infinite: true,
   arrows: false,
   dots: true,
@@ -13,7 +13,7 @@ const SliderOptions = {
       },
     },
     {
-      breakpoint: 768,
+      breakpoint: 768,                     
       settings: {
         slidesToShow: 3,
       },

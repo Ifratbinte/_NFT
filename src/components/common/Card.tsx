@@ -3,7 +3,7 @@ import React from "react";
 import { FiChevronRight, FiClock, FiLayers, FiUsers } from "react-icons/fi";
 import Star from "./stars";
 
-const Card: React.FC<CardInterface> = ({ thumb, badge, title, desc, rating, total_rating, student, lecture, time, title_style, btn = "text-sm" }) => {
+const Card: React.FC<CardInterface> = ({ thumb, badge, btn, desc, rating, total_rating, student, lecture, time, title_style, title = "text-sm" }) => {
   return (
     <>
       <div className="rounded-lg shadow-cardShadow">
@@ -45,10 +45,12 @@ const Card: React.FC<CardInterface> = ({ thumb, badge, title, desc, rating, tota
               </div>
             )}
           </div>
-          <a href="#" className="flex items-center">
-            <span>{btn}</span>
-            <FiChevronRight className="ml-2" />
-          </a>
+          {btn && (
+            <a href="#" className="flex items-center hover:text-sky-500 font-semibold transition-all">
+              <span>{btn}</span>
+              <FiChevronRight className="ml-2" />
+            </a>
+          )}
         </div>
       </div>
     </>
