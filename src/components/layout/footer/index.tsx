@@ -1,6 +1,4 @@
-
-import account, { AccountInterface } from "#/components/instance/account";
-import marketPlace, { MarketInterface } from "#/components/instance/marketplace";
+import CTA from "#/components/view/home/cta";
 import footerData from "#mocks/footer.json";
 import FooterBottom from "./footerBottom";
 
@@ -8,10 +6,11 @@ const index = () => {
   const footer = footerData.footer;
   return (
     <>
-      <div className="container mx-auto section-gap-s ">
+      <CTA />
+      <div className="container mx-auto section-gap-s">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-14 py-4">
           <div className="lg:w-4/12 w-full px-3 lg:px-0 text-center lg:text-left">
-            <img src={footer.logo} alt="" className="mx-auto lg:ml-0 lg:mr-0"/>
+            <img src={footer.logo} alt="" className="mx-auto lg:ml-0 lg:mr-0" />
             <div className="my-8 lg:w-5/6 md:2/3 ">
               <p className="text-paragraph">{footer.content}</p>
             </div>

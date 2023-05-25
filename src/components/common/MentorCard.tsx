@@ -8,7 +8,7 @@ interface Props {
 
 const MentorCard: React.FC<Props> = ({ avatar, name, designation }) => {
   return (
-    <div className="relative rounded-xl p-6 cursor-pointer hover:shadow-cardShadow mx-4 my-8 border border-slate-100">
+    <a href="#" className="relative rounded-xl p-6 cursor-pointer hover:shadow-cardShadow mx-4 my-8 border border-slate-100">
       <img className="w-32 h-32 md:w-44 md:h-44 rounded-full mx-auto " src={avatar} alt={name} />
       <div className="flex justify-between">
         <div>
@@ -19,7 +19,7 @@ const MentorCard: React.FC<Props> = ({ avatar, name, designation }) => {
           <FiEye />
         </div>
       </div>
-  </div> 
+  </a> 
   );
 };
 

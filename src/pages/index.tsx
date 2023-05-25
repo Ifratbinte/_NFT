@@ -1,7 +1,6 @@
 import Article from "#/components/view/home/article";
 import Counter from "#/components/view/home/counter";
 import Course from "#/components/view/home/course";
-import CTA from "#/components/view/home/cta";
 import Hero from "#/components/view/home/hero";
 import Mentor from "#/components/view/home/mentor";
 import Partners from "#/components/view/home/partners";
@@ -18,7 +17,6 @@ export default function HomePage() {
       <Mentor />
       <Partners />
       <Article />
-      <CTA />
     </>
   );
 }

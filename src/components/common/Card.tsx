@@ -6,7 +6,7 @@ import Star from "./stars";
 const Card: React.FC<CardInterface> = ({ thumb, badge, btn, desc, rating, total_rating, student, lecture, time, title_style, title = "text-sm" }) => {
   return (
     <>
-      <div className="rounded-lg shadow-cardShadow">
+      <a href="#" className="rounded-lg shadow-cardShadow">
         <div className="relative">
           <img src={thumb} alt={badge} />
           <span className="bg-slate-100 text-black absolute bottom-3 left-3 px-3 py-1 rounded text-sm">{badge}</span>
@@ -52,7 +52,7 @@ const Card: React.FC<CardInterface> = ({ thumb, badge, btn, desc, rating, total_
             </a>
           )}
         </div>
-      </div>
+      </a>
     </>
   );
 };
