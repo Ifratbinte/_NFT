@@ -4,7 +4,7 @@ const footerBottom = () => {
   return (
     <div className="border border-t">
       <div className="container mx-auto">
-        <div className="text-gray-400 flex justify-center py-5">Copyright @ {new Date().getFullYear()} Ifrat Binte</div>
+        <div className="text-gray-400 flex justify-center">Copyright @ {new Date().getFullYear()} Ifrat Binte</div>
       </div>
     </div>
   );

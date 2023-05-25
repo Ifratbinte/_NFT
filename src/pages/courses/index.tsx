@@ -1,8 +1,11 @@
 import React from 'react'
+import PageHead from '#/components/view/courses/pageHead'
 
 const Courses = () => {
   return (
-    <div>Courses</div>
+    <>
+    <PageHead/>
+    </>
   )
 }
 
