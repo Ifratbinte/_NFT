@@ -13,8 +13,8 @@
         "student": "79,062",
         "lecture": "23",
         "time": "1 hr 30 min",
-        "mentor" : "/images/avatar/avatar-lg-1.png",
-        "mentor_name" : "Alex Butler"
+        "mentor": "/images/avatar/avatar-lg-1.png",
+        "mentor_name": "Alex Butler"
       },
       {
         "id": 2,
@@ -27,8 +27,8 @@
         "student": "103,820",
         "lecture": "280",
         "time": "42 hr 30 min",
-        "mentor" : "/images/avatar/avatar-lg-1.png",
-        "mentor_name" : "Alex Butler"
+        "mentor": "/images/avatar/avatar-lg-1.png",
+        "mentor_name": "Alex Butler"
       },
       {
         "id": 3,
@@ -41,8 +41,50 @@
         "student": "46,555",
         "lecture": "99",
         "time": "21 hr 23 min",
-        "mentor" : "/images/avatar/avatar-lg-1.png",
-        "mentor_name" : "Alex Butler"
+        "mentor": "/images/avatar/avatar-lg-1.png",
+        "mentor_name": "Alex Butler"
+      },
+      {
+        "id": 4,
+        "thumb": "/images/thumb/course-1.png",
+        "badge": "Beginner",
+        "title": "Java programming course complete beginners",
+        "desc": "Many of my coworkers choose to use disten for continuing...",
+        "rating": "4.5",
+        "total_rating": "41,103",
+        "student": "79,062",
+        "lecture": "23",
+        "time": "1 hr 30 min",
+        "mentor": "/images/avatar/avatar-lg-1.png",
+        "mentor_name": "Alex Butler"
+      },
+      {
+        "id": 5,
+        "thumb": "/images/thumb/course-2.png",
+        "badge": "Intermediate",
+        "title": "Beginning c++ programming from beyond",
+        "desc": "Many of my coworkers choose to use disten for continuing...",
+        "rating": "4.5",
+        "total_rating": "27,820",
+        "student": "103,820",
+        "lecture": "280",
+        "time": "42 hr 30 min",
+        "mentor": "/images/avatar/avatar-lg-1.png",
+        "mentor_name": "Alex Butler"
+      },
+      {
+        "id": 6,
+        "thumb": "/images/thumb/course-3.png",
+        "badge": "Advanced",
+        "title": "PLC programming from scratch (PLCI)",
+        "desc": "Many of my coworkers choose to use disten for continuing...",
+        "rating": "4.5",
+        "total_rating": "15,312",
+        "student": "46,555",
+        "lecture": "99",
+        "time": "21 hr 23 min",
+        "mentor": "/images/avatar/avatar-lg-1.png",
+        "mentor_name": "Alex Butler"
       }
     ]
   }

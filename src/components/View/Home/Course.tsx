@@ -1,5 +1,7 @@
 import CourseCard from "#/components/common/Card";
 import courseItem from "#mocks/course.json";
+import Slider from "react-slick";
+import SliderOptions from "#/helpers/slider-init-value";
 
 const Course = () => {
   return (
